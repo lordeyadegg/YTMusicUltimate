@@ -32,8 +32,8 @@ endif
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 # LastFMYouTubeMusic Tweak Configuration
-LASTFM_API_KEY = xxx
-LASTFM_API_SECRET = xxx
+LASTFM_API_KEY = a2122aed6d4cc902642ee77d7b757333
+LASTFM_API_SECRET = f11c78471b4ca0f8943caafbb73112fd
 
 TWEAK_NAME = LastFMYouTubeMusic
 $(TWEAK_NAME)_FILES = $(shell find sources -name '*.x*')
